@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sign_in</class>
+ <widget class="QMainWindow" name="sign_in">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>581</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Authorization</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #524b4b;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_1_login">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>270</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: #7d7a7a;
+	border: 2px solid #fc8383;
+	color: white;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: #fc8383;
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #ff4545;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Вхід у програм</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_1_login">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>541</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string>Введіть логін та пароль для входу</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2_login">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string>Авторизація користувача</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_1_login">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>140</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+background-color: white;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>логін\почта</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2_login">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+background-color: white;
+color: black;</string>
+    </property>
+    <property name="placeholderText">
+     <string>пароль</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2_login">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>350</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: #7d7a7a;
+	border: 2px solid #fc8383;
+	color: white;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: #fc8383;
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #ff4545;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Зареєструвати</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
